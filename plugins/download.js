@@ -303,14 +303,14 @@ cmd({
     const app = data.datalist.list[0];
     const appSize = (app.size / 1048576).toFixed(2); // Convert bytes to MB
 
-    const caption = `╭━━━〔 *𝐒𝐔𝐋𝐀-𝐌𝐃 APK Downloader* 〕━━━┈⊷
+    const caption = `╭━━━〔 * CYBER_X_MDAPK Downloader* 〕━━━┈⊷
 ┃ 📦 *Name:* ${app.name}
 ┃ 🏋 *Size:* ${appSize} MB
 ┃ 📦 *Package:* ${app.package}
 ┃ 📅 *Updated On:* ${app.updated}
 ┃ 👨‍💻 *Developer:* ${app.developer.name}
 ╰━━━━━━━━━━━━━━━┈⊷
-> 🄿🄾🅆🄴🅁🄳 🅱🆈 𝐒𝐔𝐋𝐀_𝐌𝐃 😈`;
+> 🄿🄾🅆🄴🅁🄳 🅱🆈  CYBER_X_MD😈`;
 
     await conn.sendMessage(from, { react: { text: "⬆️", key: m.key } });
 
@@ -361,7 +361,7 @@ cmd({
         document: { url: downloadUrl },
         mimetype: response.data.result.mimetype,
         fileName: response.data.result.fileName,
-        caption: "> 🄿🄾🅆🄴🅁🄳 🅱🆈 𝐒𝐔𝐋𝐀_𝐌𝐃 😈"
+        caption: "> 🄿🄾🅆🄴🅁🄳 🅱🆈 CYBER_X_MD 😈"
       }, { quoted: m });
 
       await conn.sendMessage(from, { react: { text: "✅", key: m.key } });
@@ -671,7 +671,7 @@ cmd({
         const videoUrl = media.find(item => item.type.includes('720p'))?.download_url || media[0].download_url;
 
         // Prepare the new message with the updated caption
-        const desc = `╭━━━〔 *𝐒𝐔𝐋𝐀-𝐌𝐃* 〕━━━┈⊷
+        const desc = `╭━━━〔 *CYBER_X_MD* 〕━━━┈⊷
 ┃▸╭───────────
 ┃▸┃๏ *PINS DOWNLOADER*
 ┃▸└───────────···๏
@@ -680,7 +680,7 @@ cmd({
 ┇๏ *Title* - ${title}
 ┇๏ *Media Type* - ${media[0].type}
 ╰━━❑━⪼
-> 🄿🄾🅆🄴🅁🄳 🅱🆈 𝐒𝐔𝐋𝐀_𝐌𝐃 😈`;
+> 🄿🄾🅆🄴🅁🄳 🅱🆈 CYBER_X_MD 😈`;
 
         // Send the media (video or image) to the user
         if (videoUrl) {
