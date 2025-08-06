@@ -24,7 +24,7 @@ cmd({
     const user = data.data.user;
     const stats = data.data.stats;
 
-    const profileInfo = `🎭 *𝐒𝐔𝐋𝐀-𝐌𝐃 TikTok Profile Stalker* 🎭
+    const profileInfo = `🎭 * CYBER-X-MDTikTok Profile Stalker* 🎭
 
 👤 *Username:* @${user.uniqueId}
 📛 *Nickname:* ${user.nickname}
@@ -44,7 +44,7 @@ cmd({
 
 🔗 *Profile URL:* https://www.tiktok.com/@${user.uniqueId}
 
-> 🄿🄾🅆🄴🅁🄳 🅱🆈 𝐒𝐔𝐋𝐀_𝐌𝐃 😈
+> 🄿🄾🅆🄴🅁🄳 🅱🆈 CYBER-X-MD😈
 `;
 
     const profileImage = { image: { url: user.avatarLarger }, caption: profileInfo };
