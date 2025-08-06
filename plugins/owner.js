@@ -12,9 +12,9 @@ cmd({
 async (conn, mek, m, { from }) => {
     try {
         // Owner's contact info
-        const ownerNumber = '+94760663483'; // Replace this with the actual owner number
-        const ownerName = '𝐒𝐔𝐋𝐀𝐊𝐒𝐇𝐀 𝐌𝐀𝐃𝐀𝐑𝐀'; // Replace this with the owner's name
-        const organization = '*𝐒𝐔𝐋𝐀-𝐌𝐃* WHATSAPP BOT DEVALOPER 😈'; // Optional: replace with the owner's organization
+        const ownerNumber = '+94770483357'; // Replace this with the actual owner number
+        const ownerName = 'VIHANGA KAVISH AND X IMA'; // Replace this with the owner's name
+        const organization = '*CYBER_X_MD* WHATSAPP BOT DEVALOPER 😈'; // Optional: replace with the owner's organization
         
 
         // Create a vCard (contact card) for the owner
@@ -35,7 +35,7 @@ async (conn, mek, m, { from }) => {
 
         // Send a reply message that references the vCard
         await conn.sendMessage(from, {
-            text: `𝐒𝐔𝐋𝐀-𝐌𝐃 𝗢𝗪𝗡𝗘𝗥: ${ownerName}\n\n\ *🄿🄾🅆🄴🅁🄳 🅱🆈 𝐒𝐔𝐋𝐀_𝐌𝐃 😈*`,
+            text: `𝐒𝐔𝐋𝐀-𝐌𝐃 𝗢𝗪𝗡𝗘𝗥: ${ownerName}\n\n\ *🄿🄾🅆🄴🅁🄳 🅱🆈  CYBER_X_MD😈*`,
             contextInfo: {
                 mentionedJid: [ownerNumber.replace('+94760663483') + '+94760663483@s.whatsapp.net'], // Mention the owner
                 quotedMessageId: sentVCard.key.id // Reference the vCard message
