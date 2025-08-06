@@ -9,10 +9,10 @@ cmd({
     filename: __filename
 }, async (conn, mek, m, { from, sender, pushname, reply }) => {
     try {
-        const channel = 'SULA-MD';
+        const channel = 'CYBER-X-MD';
         const repolink = `⭕ *CYBER_X_MD Github Repository*
 
-
+   https://github.com/kavishvihanga/CYBER-X-MD.git
 
 ⭕ *CYBER_X_MD DIPLOY HEROKU*
 
