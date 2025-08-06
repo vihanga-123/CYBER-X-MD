@@ -45,7 +45,7 @@ cmd({
         
         + `*• URL*: ${video.link}\n\n`
       
-        + `> 🄿🄾🅆🄴🅁🄳 🅱🆈 𝐒𝐔𝐋𝐀-𝐌𝐃 😈`;
+        + `> 🄿🄾🅆🄴🅁🄳 🅱🆈  CYBER-X-MD😈`;
 
       if (video.nowm) {
         await conn.sendMessage(from, {
