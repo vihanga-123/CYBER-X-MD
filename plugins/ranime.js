@@ -24,7 +24,7 @@ cmd({
         const animeStatus = anime.status || "Status not available"; // Statut de l'anime (en cours, terminé, etc.)
 
         // Préparer la réponse avec les informations de l'anime
-        const message = `🎥 𝐒𝐔𝐋𝐀-𝐌𝐃 *Random Anime:* \n\n*Title:* ${animeTitle} \n*Synopsis:* ${animeSynopsis} \n*Episodes:* ${animeEpisodes} \n*Status:* ${animeStatus}`;
+        const message = `🎥  CYBER_X_MD*Random Anime:* \n\n*Title:* ${animeTitle} \n*Synopsis:* ${animeSynopsis} \n*Episodes:* ${animeEpisodes} \n*Status:* ${animeStatus}`;
 
         // Envoyer le message avec l'image et les informations supplémentaires
         await conn.sendMessage(m.chat, {
