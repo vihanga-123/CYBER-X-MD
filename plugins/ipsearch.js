@@ -38,7 +38,7 @@ const ISP = "ISP :"
 const MOBILE = "MOBILE :"
 const PROXY = "PROXY :"
 const r = await fetchJson('https://api.techniknews.net/ipgeo/' + q)
-const wea = `𝐒𝐔𝐋𝐀-𝐌𝐃
+const wea = `CYBER_X_MD
 
     *IP STALKER*
     
