@@ -19,12 +19,12 @@ this is my first web site for creating a simple watsapp bot
 </p>
 
 
-<a><img src='(https://github.com/user-attachments/assets/36c07200-1e32-4315-89e6-85d8f2f2f27c)'/></a>
+<a><img src='(https://i.ibb.co/TxYQ19zs/SulaMd.jpg)'/></a>
 <h1 align="center"> cyber-x-md</h1> 
 
 
 
-https://i.ibb.co/TxYQ19zs/SulaMd.jpg
+
 
 
 
