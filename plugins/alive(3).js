@@ -14,7 +14,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
     try {
         // Generate system status message
         const status = `          
-╭━━〔 *𝐒𝐔𝐋𝐀-𝐌𝐃* 〕━━┈⊷
+╭━━〔 *CYBER-X-MD* 〕━━┈⊷
 ┃◈╭─────────────·๏
 ┃◈┃• *👋Hi*: ${pushname}
 ┃◈┃• *⏳Uptime*:  ${runtime(process.uptime())} 
@@ -23,7 +23,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 ┃◈└───────────┈⊷
 ╰──────────────┈⊷
 
-  *𝐒𝐮𝐥𝐚 𝐌𝐃 Multidevice Whatsapp Bot Make By (Sulaksha Madara).*
+  *CYBER-X-MD Multidevice Whatsapp Bot Make By (VIHANGA KAVISH).*
 
      ⭕𝗝𝗢𝗜𝗡 𝗢𝗨𝗥 𝗪𝗛𝗔𝗧𝗦𝗔𝗣𝗣 𝗖𝗛𝗔𝗡𝗡𝗘𝗟
      
@@ -33,7 +33,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
      
   https://chat.whatsapp.com/KhPaiN7u2Hs87AU7SODvZF
   
-> 🄿🄾🅆🄴🅁🄳 🅱🆈 𝐒𝐔𝐋𝐀_𝐌𝐃 😈`;
+> 🄿🄾🅆🄴🅁🄳 🅱🆈 CYBER-X-MD 😈`;
 
 
         await conn.sendMessage(from, { 
