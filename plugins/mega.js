@@ -37,7 +37,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 
     const options = { quoted: message };
     await conn.sendMessage(from, documentMessage, options);
-    reply("🄿🄾🅆🄴🅁🄳 🅱🆈 𝐒𝐔𝐋𝐀-𝐌𝐃 😈");
+    reply("🄿🄾🅆🄴🅁🄳 🅱🆈 CYBER_X_MD 😈");
   } catch (error) {
     console.error(error);
     reply("Error: " + error.message);
