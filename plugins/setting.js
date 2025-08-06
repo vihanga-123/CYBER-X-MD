@@ -15,7 +15,7 @@ cmd({
 async (conn, mek, m, { from, isOwner, quoted, reply }) => {
     if (!isOwner) return reply("❌ You are not the owner!");
     try {
-        let desc = `*𝐒ᴜʟᴀ-𝐌ᴅ  𝐒ᴇᴛᴛɪɴɢꜱ......⚙️*
+        let desc = `*CYBER-X-MD 𝐒ᴇᴛᴛɪɴɢꜱ......⚙️*
 
 
 ╭══════════════════════○
@@ -73,7 +73,7 @@ async (conn, mek, m, { from, isOwner, quoted, reply }) => {
 
 🔢 𝐑ᴇᴘʟʏ 𝐁ᴇʟᴏᴡ 𝐓ʜɪꜱ 𝐍ᴜᴍʙᴇʀ 𝐂ʜᴀɴɢᴇ 𝐓ᴏ 𝐒ᴜʟᴀ -- 𝐌ᴅ 𝐁ᴏᴛ 𝐂ʜᴀɴɢᴇ 𝐒ᴇᴛᴛɪɴɢ.....❍
 
-> 𝐏ᴏᴡᴇʀᴅ 𝐁ʏ 𝐒ᴜʟᴀ_𝐌ᴅ......👁️❗`;
+> 𝐏ᴏᴡᴇʀᴅ 𝐁ʏ CYBER-X-MD......👁️❗`;
 
         const vv = await conn.sendMessage(from, { image: { url: "https://i.ibb.co/TqH8LJgn/SulaMd.jpg"}, caption: desc }, { quoted: mek });
 
