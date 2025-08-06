@@ -10,31 +10,31 @@ cmd({
 }, async (conn, mek, m, { from, sender, pushname, reply }) => {
     try {
         const channel = 'SULA-MD';
-        const repolink = `⭕ *𝐒𝐔𝐋𝐀-𝐌𝐃 Github Repository*
+        const repolink = `⭕ *CYBER_X_MD Github Repository*
 
-> https://github.com/sula011/SULA-MD
 
-⭕ *𝐒𝐔𝐋𝐀-𝐌𝐃 DIPLOY HEROKU*
 
-> https://dashboard.heroku.com/new?template=https://github.com/sula011/SULA-MD
+⭕ *CYBER_X_MD DIPLOY HEROKU*
 
-⭕ *𝐒𝐔𝐋𝐀-𝐌𝐃 WEB 📍*
 
-> https://sula-md-g5sp.onrender.com
+
+⭕ *CYBER_X_MD WEB 📍*
+
+
 
 ⭕ *WHATSAPP CHANNEL :*
 
-> https://whatsapp.com/channel/0029Vb65iOZKwqSNKecV8V07
+https://whatsapp.com/channel/0029Vb6D1AJ9Bb67Ygoqg72i
 
 ⭕ *Contact Owner :*
 
-> wa.me/94760663483
+> wa.me/94770483357
             
-⭕ *𝐒𝐔𝐋𝐀-𝐌𝐃 Talkdrove Diploy*
+⭕ *CYBER-X-MD Talkdrove Diploy*
  
 *ඔය Link එකෙන් ගිහින් Account එකක් හදාගන්න👇*
 
-> https://host.talkdrove.com/auth/signup?ref=D664187C
+
 
 *මේ Link එකෙන් ගිහින් Bot ව Diploy කරගන්න👇*
 
@@ -47,7 +47,7 @@ cmd({
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                     newsletterJid: '120363385281017920@newsletter',
-                    newsletterName: '𝐒𝐔𝐋𝐀-𝐌𝐃',
+                    newsletterName: 'CYBER-X-MD',
                     serverMessageId: -1
                 }
             }
