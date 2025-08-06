@@ -22,8 +22,9 @@ this is my first web site for creating a simple watsapp bot
 <a><img src='(https://github.com/user-attachments/assets/36c07200-1e32-4315-89e6-85d8f2f2f27c)'/></a>
 <h1 align="center"> cyber-x-md</h1> 
 
-![kevin-ku-w7ZyuGYNpRQ-unsplash](https://github.com/user-attachments/assets/5a9d7d8b-61da-43e6-9278-12e500c36e0a)
 
+
+![Uploading kevin-ku-w7ZyuGYNpRQ-unsplash.jpg…]()
 
 
 
