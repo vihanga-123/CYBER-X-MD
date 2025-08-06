@@ -49,7 +49,7 @@ async (conn, mek, m, { from, mnu, quoted, body, isCmd, command, args, q, isGroup
         fs.unlinkSync(tempFilePath);
 
         // ප්‍රතිචාරය යැවීම
-        m.reply(`𝐒𝐔𝐋𝐀-𝐌𝐃 𝙄𝙈𝙂 𝙏𝙊 𝙐𝙍𝙇\n\n*File Size* ${media.length} *Byte(s)*\n\n*IMG URL* ${link}\n\n> 𝐏𝙾𝚆𝙴𝚁𝙳 𝐁𝚈 𝐒𝚄𝙻𝙰 𝐌𝙳`);
+        m.reply(`CYBER_X_MD 𝙄𝙈𝙂 𝙏𝙊 𝙐𝙍𝙇\n\n*File Size* ${media.length} *Byte(s)*\n\n*IMG URL* ${link}\n\n> 𝐏𝙾𝚆𝙴𝚁𝙳 𝐁𝚈 CYBER_X_MD `);
 
     } catch (e) {
         reply(`${e}`);
