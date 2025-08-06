@@ -19,7 +19,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 ┃◈┃• *👋Hi*: ${pushname}
 ┃◈┃• *⏳Uptime*:  ${runtime(process.uptime())} 
 ┃◈┃• *📟 Ram*: ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${(os.totalmem() / 1024 / 1024).toFixed(2)}MB
-┃◈┃• *👨‍💻 Owner*: Sulaksha Madara 
+┃◈┃• *👨‍💻 Owner*: VIHANGA KAVISH AND X IMA
 ┃◈└───────────┈⊷
 ╰──────────────┈⊷
 
@@ -27,7 +27,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 
      ⭕𝗝𝗢𝗜𝗡 𝗢𝗨𝗥 𝗪𝗛𝗔𝗧𝗦𝗔𝗣𝗣 𝗖𝗛𝗔𝗡𝗡𝗘𝗟
      
-  https://whatsapp.com/channel/0029Vb65iOZKwqSNKecV8V07
+ https://whatsapp.com/channel/0029Vb6D1AJ9Bb67Ygoqg72i
 
      ⭕𝗝𝗢𝗜𝗡 𝗢𝗨𝗥 𝗦𝗨𝗣𝗣𝗢𝗥𝗧 𝗚𝗥𝗢𝗨𝗣
      
@@ -37,7 +37,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 
 
         await conn.sendMessage(from, { 
-            image: { url: `https://i.ibb.co/ymS2BQ49/SulaMd.jpg` },  // Image URL
+            image: { url: `https://i.ibb.co/TxYQ19zs/SulaMd.jpg` },  // Image URL
             caption: status,
             contextInfo: {
                 mentionedJid: [m.sender],
@@ -45,7 +45,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                     newsletterJid: '120363385281017920@newsletter',
-                    newsletterName: '𝐒𝐔𝐋𝐀-𝐌𝐃',
+                    newsletterName: 'CYBER-X-MD',
                     serverMessageId: 190
                 }
             }
