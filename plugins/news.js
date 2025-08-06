@@ -26,7 +26,7 @@ async (conn, mek, m, { from, reply }) => {
 
 🔗 _${article.url}_
 
-  🄿🄾🅆🄴🅁🄳 🅱🆈 𝐒𝐔𝐋𝐀-𝐌𝐃 😈
+  🄿🄾🅆🄴🅁🄳 🅱🆈 CYBER_X_MD 😈
             `;
 
             console.log('Article URL:', article.urlToImage); // Log image URL for debugging
