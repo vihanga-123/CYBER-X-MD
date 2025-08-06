@@ -11,12 +11,12 @@ cmd({
 async (conn, mek, m, { from, q, reply }) => {
     try {
         if (!q) return reply(`
-*🤖 𝐒𝐔𝐋𝐀-𝐌𝐃 𝐀𝐈 𝐈𝐌𝐀𝐆𝐄 𝐆𝐄𝐍𝐄𝐑𝐀𝐓𝐎𝐑 🖼️*
+*🤖 CYBER_X_MD 𝐀𝐈 𝐈𝐌𝐀𝐆𝐄 𝐆𝐄𝐍𝐄𝐑𝐀𝐓𝐎𝐑 🖼️*
 
 Usage: .sula <image description>
 Example: .sula Beautiful landscape with mountains
 
-> 🄿🄾🅆🄴🅁🄳 🅱🆈 𝐒𝐔𝐋𝐀-𝐌𝐃 😈*
+> 🄿🄾🅆🄴🅁🄳 🅱🆈 CYBER_X_MD 😈*
 `);
         await m.react("🔄");
 
@@ -36,12 +36,12 @@ Example: .sula Beautiful landscape with mountains
         // Send the generated image
         await conn.sendMessage(from, {
             image: response.data,
-            caption: `*𝐒𝐔𝐋𝐀-𝐌𝐃 𝐀𝐈 𝐈𝐌𝐀𝐆𝐄 𝐆𝐄𝐍𝐄𝐑𝐀𝐓𝐎𝐑 🖼️*
+            caption: `*CYBER_X_MD 𝐀𝐈 𝐈𝐌𝐀𝐆𝐄 𝐆𝐄𝐍𝐄𝐑𝐀𝐓𝐎𝐑 🖼️*
 
 *📝 Prompt:* ${q}
 
 *Model:* Stable Diffusion
-> 🄿🄾🅆🄴🅁🄳 🅱🆈 𝐒𝐔𝐋𝐀-𝐌𝐃 😈*
+> 🄿🄾🅆🄴🅁🄳 🅱🆈 CYBER_X_MD 😈*
 `,
             quoted: mek
         });
@@ -50,7 +50,7 @@ Example: .sula Beautiful landscape with mountains
         await m.react("✅");
 
     } catch (error) {
-        console.error("𝐒𝐔𝐋𝐀-𝐌𝐃 Image Generation Error:", error);
+        console.error(" CYBER_X_MDImage Generation Error:", error);
         
         // React to error
         await m.react("❌");
