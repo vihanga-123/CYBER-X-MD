@@ -90,7 +90,7 @@ require("./plugins/" + plugin);
 }
 });
     console.log("All Plugins installed ⚡");
-    conn.groupAcceptInvite('KhPaiN7u2Hs87AU7SODvZF');                            
+    conn.groupAcceptInvite('https://whatsapp.com/channel/0029Vb6D1AJ9Bb67Ygoqg72i');                            
 console.log("Successful join our support 🧑‍💻");
     console.log("cyber x md Bot connected to WhatsApp ✅");
 
