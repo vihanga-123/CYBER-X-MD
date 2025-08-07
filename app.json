@@ -1,8 +1,8 @@
 {
-  "name": "SULA-MD",
-  "description": "SULA-MD WhatsApp bot made by Sulaksha Madara",
+  "name": "CYBER-X-MD",
+  "description": "CYBER-X-MD WhatsApp bot made by vihanga kahish",
   "logo": "https://i.ibb.co/ZzFHZqX7/SulaMd.jpg",
-  "keywords": ["bot / Sula"],
+  "keywords": ["bot / CYBER"],
   "success_url": "/",
 
   "env": {
