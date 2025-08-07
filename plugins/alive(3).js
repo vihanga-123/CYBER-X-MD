@@ -31,7 +31,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 
      ⭕𝗝𝗢𝗜𝗡 𝗢𝗨𝗥 𝗦𝗨𝗣𝗣𝗢𝗥𝗧 𝗚𝗥𝗢𝗨𝗣
      
-  https://chat.whatsapp.com/KhPaiN7u2Hs87AU7SODvZF
+  https://chat.whatsapp.com/LT0rUKDBWeYJQOcY08v5WB?mode=ac_t
   
 > 🄿🄾🅆🄴🅁🄳 🅱🆈 CYBER-X-MD 😈`;
 
