@@ -35,7 +35,7 @@ const Crypto = require('crypto')
 const path = require('path')
 const prefix = '.'
 
-const ownerNumber = [,'94763165605']
+const ownerNumber = [,'94770483357']
 
 //===================SESSION-AUTH============================
 if (!fs.existsSync(__dirname + '/auth_info_baileys/creds.json')) {
@@ -62,7 +62,7 @@ const {readEnv} = require('./lib/database')
 const config = await readEnv();
 //==============================================
         
-console.log("Connecting Sula Md bot 🧬...");
+console.log("Connecting cyber x Md bot 🧬...");
 const { state, saveCreds } = await useMultiFileAuthState(__dirname + '/auth_info_baileys/')
 var { version } = await fetchLatestBaileysVersion()
 
@@ -92,26 +92,26 @@ require("./plugins/" + plugin);
     console.log("All Plugins installed ⚡");
     conn.groupAcceptInvite('KhPaiN7u2Hs87AU7SODvZF');                            
 console.log("Successful join our support 🧑‍💻");
-    console.log("Sula Md Bot connected to WhatsApp ✅");
+    console.log("cyber x md Bot connected to WhatsApp ✅");
 
-let up = `🛠️ 𝐂𝐨𝐧𝐧𝐞𝐜𝐭𝐢𝐧𝐠 𝐒𝐔𝐋𝐀-𝐌𝐃 • MultiDevice WhatsApp Bot... 💾  
+let up = `🛠️ 𝐂𝐨𝐧𝐧𝐞𝐜𝐭𝐢𝐧𝐠 CYBER-X-MD • MultiDevice WhatsApp Bot... 💾  
 ━━━━━━━━━━━━━━━━━━━━━━━
 
 😈 𝐖𝐇𝐀𝐓𝐒𝐀𝐏𝐏 𝐂𝐇𝐀𝐍𝐍𝐄𝐋  
 ┏━━━━━━━━━━━━━━━━━━━━━┓  
-┃ 🔗 https://whatsapp.com/channel/0029Vb65iOZKwqSNKecV8V07  
+┃ 🔗  https://whatsapp.com/channel/0029Vb6D1AJ9Bb67Ygoqg72i 
 ┗━━━━━━━━━━━━━━━━━━━━━┛  
 
 😈 𝐂𝐎𝐍𝐓𝐀𝐂𝐓 𝐔𝐒  
 ┏━━━━━━━━━━━━━━━━━━━━━┓  
-┃ 📞 wa.me/94760663483  
+┃ 📞 wa.me/94770483357  
 ┗━━━━━━━━━━━━━━━━━━━━━┛  
 
-⚡ 𝙋𝙤𝙬𝙚𝙧𝙚𝙙 𝘽𝙮: *𝐒𝐔𝐋𝐀-𝐌𝐃 😈*
+⚡ 𝙋𝙤𝙬𝙚𝙧𝙚𝙙 𝘽𝙮: *CYBER-X-MD 😈*
 ━━━━━━━━━━━━━━━━━━━━━━━`;
 
 
-conn.sendMessage(conn.user.id,{ image: { url: `https://i.ibb.co/0R73PZb5/SulaMd.jpg` }, caption: up })
+conn.sendMessage(conn.user.id,{ image: { url: `https://i.ibb.co/TxYQ19zs/SulaMd.jpg` }, caption: up })
 
 }
 })
