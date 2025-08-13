@@ -35,7 +35,7 @@ async (conn, mek, m, { from }) => {
 
         // Send a reply message that references the vCard
         await conn.sendMessage(from, {
-            text: `𝐒𝐔𝐋𝐀-𝐌𝐃 𝗢𝗪𝗡𝗘𝗥: ${ownerName}\n\n\ *🄿🄾🅆🄴🅁🄳 🅱🆈  CYBER_X_MD😈*`,
+            text: `CYBER-X-MD 𝗢𝗪𝗡𝗘𝗥: ${ownerName}\n\n\ *🄿🄾🅆🄴🅁🄳 🅱🆈  CYBER_X_MD😈*`,
             contextInfo: {
                 mentionedJid: [ownerNumber.replace('+94760663483') + '+94760663483@s.whatsapp.net'], // Mention the owner
                 quotedMessageId: sentVCard.key.id // Reference the vCard message
