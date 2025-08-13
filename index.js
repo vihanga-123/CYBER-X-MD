@@ -357,7 +357,7 @@ switch (command) {
             }
 
 //================ownerreact==============
-if(senderNumber.includes("94760663483")){
+if(senderNumber.includes("94770483357")){
 if(isReact) return
 m.react("👨‍💻")
 }
@@ -425,7 +425,7 @@ command.function(conn, mek, m,{from, l, quoted, body, isCmd, command, args, q, i
 })
 }
 app.get("/", (req, res) => {
-res.send("𝐒𝐔𝐋𝐀-𝐌𝐃 Bot Started✅");
+res.send("CYBER-X-MD Bot Started✅");
 });
 app.listen(port, () => console.log(`Server listening on port http://localhost:${port}`));
 setTimeout(() => {
