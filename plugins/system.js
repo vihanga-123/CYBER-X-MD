@@ -18,7 +18,7 @@ let status = `
 ┃◈┃• *⏳Uptime*: ${runtime(process.uptime())}
 ┃◈┃• *📟 Ram*: ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${(os.totalmem() / 1024 / 1024).toFixed(2)}MB
 ┃◈┃• *⚙️ Platform:-* ${os.hostname()}
-┃◈┃• *👨‍💻 Owner*: Sulaksha Madara 
+┃◈┃• *👨‍💻 Owner*: vihanga kavish
 ┃◈└───────────┈⊷
 ╰──────────────┈⊷
 
