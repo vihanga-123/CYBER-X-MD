@@ -19,7 +19,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 ┃◈┃• *👋Hi*: ${pushname}
 ┃◈┃• *⏳Uptime*:  ${runtime(process.uptime())} 
 ┃◈┃• *📟 Ram*: ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${(os.totalmem() / 1024 / 1024).toFixed(2)}MB
-┃◈┃• *👨‍💻 Owner*: VIHANGA KAVISH AND X IMA
+┃◈┃• *👨‍💻 Owner*: VIHANGA AND HASHIYA
 ┃◈└───────────┈⊷
 ╰──────────────┈⊷
 
@@ -37,7 +37,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 
 
         await conn.sendMessage(from, { 
-            image: { url: `https://i.ibb.co/TxYQ19zs/SulaMd.jpg` },  // Image URL
+            image: { url: `https://i.ibb.co/Xx89WKGH/En-RZd-D9l-OK.jpg` },  // Image URL
             caption: status,
             contextInfo: {
                 mentionedJid: [m.sender],
